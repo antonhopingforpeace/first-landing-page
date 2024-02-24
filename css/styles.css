@@ -85,3 +85,110 @@ a{
     color:lightblue;
     cursor: pointer;
 }
+
+.boxes .container{
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes .section-title{
+    flex: 1;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.boxes ul{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 40px 0;
+}
+
+.boxes .box{
+    width:200px;
+    font-size:18px;
+    text-align: center;
+}
+
+.boxes .box img{
+    width:150px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 0 80px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container{
+    max-width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .quote-author{
+    text-align: end;
+    font-weight: bolder;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding:0 80px;
+}
+
+.sign-up .container {
+    flex : 1;
+    display: flex;
+    background: #3882f6;
+    color:#F9FAF8;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 30px 60px;
+    border-radius:0.5cap;
+    gap:100px;
+}
+.sign-up h2{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign-up .last-button{
+    
+    font-size: 14px;
+    color:  inherit;
+    background:inherit;
+    border-radius: 8px;
+    border:solid 1px white ;
+    padding: 4px 10px;
+}
+
+.footer{
+    padding: 0 80px;
+    background: #1f2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 18px;
+}
+
