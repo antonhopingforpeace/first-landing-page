@@ -28,7 +28,7 @@ a{
 }
 
 .navbar .logo{
-    font-size: 24px;
+    font-size: 30px;
     color: #F9FAF8;
 }
 
@@ -43,7 +43,7 @@ a{
 }
 
 .header img{
-    height: 250px;
+    height: 350px;
     width: auto; 
     border-radius: 10%;
     margin-left: 40px;
@@ -53,14 +53,14 @@ a{
     padding: 0 80px;
     background: #1f2937;
     display:flex;
-    height: 300px;
+    height: 350px;
     align-items: center;
     justify-content: space-between;
     height: 400px;
 }
 
 .header .title{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: extra-bold;
     color: #F9FAF8;
     line-height: 0.9;
@@ -94,7 +94,7 @@ a{
 
 .boxes .section-title{
     flex: 1;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: extra-bold;
     color: #1f2937;
     display:flex;
@@ -109,19 +109,19 @@ a{
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap:40px;
+    gap:80px;
     padding: 40px 0;
 }
 
 .boxes .box{
-    width:200px;
+    width:250px;
     font-size:18px;
     text-align: center;
 }
 
 .boxes .box img{
-    width:150px;
-    height: auto;
+    width:250px;
+    height:300px ;
     border-radius: 10%;
 }
 
